@@ -6,7 +6,7 @@ import Link from "next/link"
 export const Navbar = () => {
     return (
         <>
-            <nav className="container max-w-[1220px] m-4 top-0 left-0 fixed bg-white rounded-[30px]">
+            <nav className="container max-w-[1220px] m-4 top-0 left-0 fixed bg-white rounded-[30px] z-10">
                 <div className="flex items-center justify-between py-4 px-10">
                     <h1 className="font-semibold text-2xl text-primary-400">Givinity</h1>
                     <div className="">
