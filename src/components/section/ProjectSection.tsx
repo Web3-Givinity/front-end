@@ -9,7 +9,7 @@ export const ProjectSection = () => {
             <section className="p-4 mt-14">
                 <TitleSection label="Projects" />
                 <p className="text-5xl my-6">Success Stories from Your Donations</p>
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-grow">
                     <div className="w-1/2">
                         <CardProject image={projectImg1.src} />
                     </div>

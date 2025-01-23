@@ -25,7 +25,8 @@ export default {
       },
       backgroundImage: {
         'card-gradient': 'linear-gradient(0deg, rgba(90, 190, 230, 1) 0%, rgba(255, 255, 255, 0) 100%);',
-        'card-gradient-hover': 'linear-gradient(0deg, rgba(90, 190, 230, 0.94) 40%, rgba(255, 255, 255, 0) 100%);'
+        'card-gradient-hover': 'linear-gradient(0deg, rgba(90, 190, 230, 0.94) 40%, rgba(255, 255, 255, 0) 100%);',
+        'contact': 'linear-gradient(270deg, rgba(90, 190, 230, 0.85) 0%, rgba(255, 255, 255, 1) 100%);'
       }
     },
   },

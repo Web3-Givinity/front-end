@@ -9,8 +9,10 @@ type CardProjectProps = {
 const CardProject = ({ image }: CardProjectProps) => {
     return (
         <>
-            <div className="group flex flex-col relative overflow-hidden cursor-pointer">
-                <Image width={500} height={500} alt="gambar" src={image} className="w-full h-full" />
+            <div className="group flex flex-col relative rounded-3xl overflow-hidden cursor-pointer">
+                <div className="flex-grow">
+                    <Image width={500} height={500} alt="gambar" src={image} className="w-full h-[500px]" />
+                </div>
 
                 <div className="p-10 absolute -bottom-24 transition-all duration-300 ease-linear bg-card-gradient group-hover:bottom-0 group-hover:py-24 group-hover:bg-card-gradient-hover">
                     <p className="text-sm text-primary-400 mb-4 group-hover:text-black">aus, Januari 2021</p>
