@@ -6,7 +6,7 @@ import { about } from '@/constants/about'
 export const AboutSection = () => {
     return (
         <>
-            <section className="p-4 mt-14">
+            <section className="px-14 my-24">
                 <div className="flex relative items-center justify-between">
                     <div className="">
                         <div className="absolute top-0 right-1/2 mr-4">

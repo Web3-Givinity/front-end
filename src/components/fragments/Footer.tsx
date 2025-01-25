@@ -5,7 +5,7 @@ import { InputSearchFooter } from '../elements/inputs/InputSearchFooter'
 export const Footer = () => {
     return (
         <>
-            <footer className="p-4 mt-14">
+            <footer className="px-14 mt-24">
                 <div className="flex justify-between items-center border-b border-gray-400 py-10">
                     <h2 className="font-bold text-4xl uppercase">logo</h2>
                     <InputSearchFooter />
@@ -59,7 +59,7 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex items-center justify-between my-8">
+                <div className="flex items-center justify-between my-6">
                     <p className="text-sm">© 2025 Givinity. All rights reserved.</p>
                     <div className="flex items-center gap-4 text-sm">
                         <p className="cursor-pointer">Home</p>

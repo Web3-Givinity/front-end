@@ -9,8 +9,8 @@ export const HeroSection = () => {
         <>
             <section className="w-full h-screen bg-[url('/heroImg.png')] bg-cover bg-center bg-no-repeat">
                 <div className="flex justify-end w-full">
-                    <div className="w-1/2 flex flex-col">
-                        <h1 className="text-left text-white text-[70px] font-medium leading-[80px] mt-44">A small act of love can create a big difference.</h1>
+                    <div className="w-1/2 flex flex-col px-14">
+                        <h1 className="text-left text-white text-[60px] font-medium leading-[80px] mt-44">A small act of love can create a big difference.</h1>
                         <div className="flex flex-col px-6">
                             <div className="flex justify-end">
                                 <Button type="button" className="py-[10px] px-20 my-6 text-white bg-primary-400 rounded-full" label="Join Us" />

@@ -8,7 +8,7 @@ import { CardHighlight } from '../fragments/CardHighlight'
 export const HighlightSection = () => {
     return (
         <>
-            <section className="p-4 mt-14">
+            <section className="px-14 my-24">
                 <TitleSection label="Higlight Campage" />
                 <p className="text-5xl my-6">Join the Movement to Make a Difference</p>
 

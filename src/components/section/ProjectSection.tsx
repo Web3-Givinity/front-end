@@ -6,7 +6,7 @@ import { projectImg1, projectImg2 } from '../../../image'
 export const ProjectSection = () => {
     return (
         <>
-            <section className="p-4 mt-14">
+            <section className="px-14 my-24">
                 <TitleSection label="Projects" />
                 <p className="text-5xl my-6">Success Stories from Your Donations</p>
                 <div className="flex gap-4 flex-grow">
