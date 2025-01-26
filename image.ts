@@ -7,6 +7,10 @@ import rectangle from './src/assets/rectangle1.png'
 import imgHeroCategories from './src/assets/imgHeroCategories.png'
 import iconMedical from './src/assets/Medical-Kit.svg'
 import rectangle2 from './src/assets/Rectangle2.png'
+import imgCategoriesSlug1 from './src/assets/imgCategoriesSlug1.png'
+import imgCategoriesSlug2 from './src/assets/imgCategoriesSlug2.png'
+import imgCategoriesSlug3 from './src/assets/imgCategoriesSlug3.png'
+import bgImgCategoriesSlug from './src/assets/Rectangle3.svg'
 
 
 export {
@@ -18,5 +22,9 @@ export {
     rectangle,
     imgHeroCategories,
     iconMedical,
-    rectangle2
+    rectangle2,
+    imgCategoriesSlug1,
+    imgCategoriesSlug2,
+    imgCategoriesSlug3,
+    bgImgCategoriesSlug
 }

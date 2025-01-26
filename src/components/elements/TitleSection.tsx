@@ -7,7 +7,7 @@ type titleSectionProps = {
 const TitleSection = ({ label }: titleSectionProps) => {
     return (
         <>
-            <div className="max-w-72 flex justify-center border border-primary-400 rounded-full py-2">
+            <div className="max-w-44 flex justify-center border border-primary-400 rounded-full py-2 px-4">
                 <p className="text-primary-400 text-lg font-light">{label}</p>
             </div>
         </>
