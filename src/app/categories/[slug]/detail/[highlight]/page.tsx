@@ -7,9 +7,14 @@ import { HeroDetailCatSection } from '@/app/categories/components/section/HeroDe
 import { ProblemSolutionSection } from '@/app/categories/components/section/ProblemSolutionSection';
 import { ProgresDetailCatSection } from '@/app/categories/components/section/ProgresDetailCatSection';
 import { RelatedProjectSection } from '@/app/categories/components/section/RelatedProjectSection';
+import { ModalDonate } from '@/app/categories/components/fragments/ModalDonate';
+import { useState } from 'react';
 
 
 export default function DetailHighlight({ params }: { params: { slug: string; highlight: string } }) {
+
+    const [showModal, setShowModal] = useState(false)
+
     return (
         <>
             <Navbar />
@@ -22,7 +27,7 @@ export default function DetailHighlight({ params }: { params: { slug: string; hi
                         <span><BsChevronRight /></span>
                         <p className='text-primary-400'>detail</p>
                     </div>
-                    <HeroDetailCatSection params={params} />
+                    <HeroDetailCatSection params={params} setShowModal={setShowModal} />
                 </div>
 
                 {/* problem & solution section */}
@@ -34,6 +39,7 @@ export default function DetailHighlight({ params }: { params: { slug: string; hi
                 {/* project relate section */}
                 <RelatedProjectSection />
             </main>
+            <ModalDonate isVisible={showModal} onClose={() => setShowModal(false)} />
             <Footer />
         </>
     )

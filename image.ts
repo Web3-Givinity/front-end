@@ -21,6 +21,7 @@ import imgProgres3 from './src/assets/img-progres3.png'
 import imgProgres4 from './src/assets/img-progres4.png'
 import imgRelated1 from './src/assets/imgRelateProject1.png'
 import imgRelated2 from './src/assets/imgRelateProject2.png'
+import iconConvert from './src/assets/icon-convert1.svg'
 
 
 export {
@@ -46,5 +47,6 @@ export {
     imgProgres3,
     imgProgres4,
     imgRelated1,
-    imgRelated2
+    imgRelated2,
+    iconConvert
 }

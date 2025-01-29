@@ -5,7 +5,7 @@ import { InputRange } from '@/components/elements/inputs/InputRange'
 import Button from '@/components/elements/buttons/Button'
 import { BsShareFill } from 'react-icons/bs'
 
-export const HeroDetailCatSection = ({ params }: { params: { slug: string; highlight: string } }) => {
+export const HeroDetailCatSection = ({ params, setShowModal }: { params: { slug: string; highlight: string }, setShowModal: (value: boolean) => void }) => {
     return (
         <>
             <section className='mt-20 flex gap-4'>
@@ -19,7 +19,7 @@ export const HeroDetailCatSection = ({ params }: { params: { slug: string; highl
                     </div>
 
                     <div className="flex items-center gap-4 mt-4">
-                        <Button type="button" className="w-full py-[10px] px-8 text-white bg-primary-400 rounded-full" label="Donate" />
+                        <Button type="button" className="w-full py-[10px] px-8 text-white bg-primary-400 rounded-full" label="Donate" onClick={() => { setShowModal(true) }} />
                         <BsShareFill size={25} className='cursor-pointer' />
                     </div>
                 </div>
