@@ -5,7 +5,7 @@ import { InputSearchFooter } from '../elements/inputs/InputSearchFooter'
 export const Footer = () => {
     return (
         <>
-            <footer className="px-14 mt-24">
+            <footer className="bottom-0 px-14">
                 <div className="flex justify-between items-center border-b border-gray-400 py-10">
                     <h2 className="font-bold text-4xl uppercase">logo</h2>
                     <InputSearchFooter />

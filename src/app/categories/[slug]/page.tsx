@@ -7,9 +7,10 @@ import { bgImgCategoriesSlug, imgCategoriesSlug1, imgCategoriesSlug2, imgCategor
 import Button from "@/components/elements/buttons/Button"
 import TitleSection from "@/components/elements/TitleSection"
 import { CardHighlight } from "@/components/fragments/CardHighlight"
+import { highlight } from "@/constants/highlight"
 
 
-export default function Page({ params }: { params: { slug: string } }) {
+export default function Page({ params }: { params: { slug: string[] } }) {
 
     return (
         <>
@@ -42,9 +43,15 @@ export default function Page({ params }: { params: { slug: string } }) {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
-                        <CardHighlight />
-                        <CardHighlight />
-                        <CardHighlight />
+                        {
+                            highlight.map((item, index) => (
+                                <CardHighlight
+                                    key={index}
+                                    highlight={item.highlight}
+                                    categorySlug={params.slug}
+                                    img={item.img.src} />
+                            ))
+                        }
                     </div>
                 </section>
             </main>

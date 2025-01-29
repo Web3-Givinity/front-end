@@ -11,6 +11,16 @@ import imgCategoriesSlug1 from './src/assets/imgCategoriesSlug1.png'
 import imgCategoriesSlug2 from './src/assets/imgCategoriesSlug2.png'
 import imgCategoriesSlug3 from './src/assets/imgCategoriesSlug3.png'
 import bgImgCategoriesSlug from './src/assets/Rectangle3.svg'
+import imgHighlight1 from './src/assets/highlight1.png'
+import imgHighlight2 from './src/assets/highlight2.png'
+import imgHighlight3 from './src/assets/highlight3.png'
+import imgDetailHighlight from './src/assets/imgDetailHighlight.png'
+import imgProgres1 from './src/assets/img-progres1.png'
+import imgProgres2 from './src/assets/img-progres2.png'
+import imgProgres3 from './src/assets/img-progres3.png'
+import imgProgres4 from './src/assets/img-progres4.png'
+import imgRelated1 from './src/assets/imgRelateProject1.png'
+import imgRelated2 from './src/assets/imgRelateProject2.png'
 
 
 export {
@@ -26,5 +36,15 @@ export {
     imgCategoriesSlug1,
     imgCategoriesSlug2,
     imgCategoriesSlug3,
-    bgImgCategoriesSlug
+    bgImgCategoriesSlug,
+    imgHighlight1,
+    imgHighlight2,
+    imgHighlight3,
+    imgDetailHighlight,
+    imgProgres1,
+    imgProgres2,
+    imgProgres3,
+    imgProgres4,
+    imgRelated1,
+    imgRelated2
 }
