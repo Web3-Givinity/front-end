@@ -22,6 +22,7 @@ import imgProgres4 from './src/assets/img-progres4.png'
 import imgRelated1 from './src/assets/imgRelateProject1.png'
 import imgRelated2 from './src/assets/imgRelateProject2.png'
 import iconConvert from './src/assets/icon-convert1.svg'
+import iconBtnDonate from './src/assets/HandHeart.svg'
 
 
 export {
@@ -48,5 +49,6 @@ export {
     imgProgres4,
     imgRelated1,
     imgRelated2,
-    iconConvert
+    iconConvert,
+    iconBtnDonate
 }
