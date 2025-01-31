@@ -24,7 +24,7 @@ export const ModalDonate = ({ isVisible, onClose }: ModalDonateProps) => {
                     {/* modal header */}
                     <div className="flex items-center justify-between">
                         <p className='text-2xl text-primary-400 font-medium'>wallet</p>
-                        <button onClick={onClose} className='text-gray-300  font-medium'><BsX size={40} /></button>
+                        <button onClick={onClose} className='text-gray-300  font-medium active:scale-105 active:text-primary-400 transition-all duration-200 ease-in-out '><BsX size={40} /></button>
                     </div>
 
                     {/* modal body */}
