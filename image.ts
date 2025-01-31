@@ -23,6 +23,10 @@ import imgRelated1 from './src/assets/imgRelateProject1.png'
 import imgRelated2 from './src/assets/imgRelateProject2.png'
 import iconConvert from './src/assets/icon-convert1.svg'
 import iconBtnDonate from './src/assets/HandHeart.svg'
+import imgTeam1 from './src/assets/img-team1.png'
+import imgTeam2 from './src/assets/img-team2.png'
+import imgTeam3 from './src/assets/img-team3.png'
+import imgTeam4 from './src/assets/img-team4.png'
 
 
 export {
@@ -50,5 +54,9 @@ export {
     imgRelated1,
     imgRelated2,
     iconConvert,
-    iconBtnDonate
+    iconBtnDonate,
+    imgTeam1,
+    imgTeam2,
+    imgTeam3,
+    imgTeam4
 }
