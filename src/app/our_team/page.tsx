@@ -15,11 +15,16 @@ const OurTeam = (props: Props) => {
             <Navbar />
             <main>
                 {/* hero section */}
-                <section className="mx-14 mt-36 h-screen bg-[url('/img-ourteam.png')] bg-no-repeat bg-cover bg-center flex items-center justify-center rounded-3xl">
-                    <div className="">
-                        <h1 className='font-bold text-[72px] text-white'>Meet Our Beautiful Team</h1>
+                <section className="relative mx-14 mt-36 h-screen bg-[url('/img-ourteam.png')] bg-no-repeat bg-cover bg-center flex items-center justify-center rounded-3xl">
+                    {/* Overlay untuk efek brightness */}
+                    <div className="absolute inset-0 bg-black opacity-50 rounded-3xl"></div>
+
+                    {/* Konten tetap di atas overlay */}
+                    <div className="relative text-center">
+                        <h1 className="font-bold text-[72px] text-white">Meet Our Beautiful Team</h1>
                     </div>
                 </section>
+
 
                 {/* team background section */}
                 <section className='mx-14 my-24 flex items-center gap-4'>
