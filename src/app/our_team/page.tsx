@@ -1,9 +1,6 @@
 import { Footer } from '@/components/fragments/Footer'
 import { Navbar } from '@/components/fragments/Navbar'
-import Image from 'next/image'
 import React from 'react'
-import { imgTeam1 } from '../../../image'
-import { BsEnvelopeFill, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { ourTeam } from '@/constants/ourTeam'
 import { CardOurTeam } from './components/fragments/CardOurTeam'
 
@@ -24,7 +21,6 @@ const OurTeam = (props: Props) => {
                         <h1 className="font-bold text-[72px] text-white">Meet Our Beautiful Team</h1>
                     </div>
                 </section>
-
 
                 {/* team background section */}
                 <section className='mx-14 my-24 flex items-center gap-4'>
@@ -54,7 +50,8 @@ const OurTeam = (props: Props) => {
                     <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4" >
                         {
                             ourTeam.map((item, index) => (
-                                <CardOurTeam image={item.image.src} />
+
+                                <CardOurTeam image={item.image.src} key={index} />
                             ))
                         }
                     </div>

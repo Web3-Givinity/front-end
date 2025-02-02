@@ -4,12 +4,13 @@ import { BsEnvelopeFill, BsInstagram, BsLinkedin, BsTwitter } from 'react-icons/
 
 type CardOurTeamProps = {
     image?: string
+    key?: number
 }
 
-export const CardOurTeam = ({ image }: CardOurTeamProps) => {
+export const CardOurTeam = ({ image, key }: CardOurTeamProps) => {
     return (
         <>
-            <div className="flex flex-row items-center gap-4 h-full">
+            <div className="flex flex-row items-center gap-4 h-full" key={key}>
                 <Image src={image || ''} width={300} height={300} alt='img-team' className='' />
 
                 <div className="flex flex-col">

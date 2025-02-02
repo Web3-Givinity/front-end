@@ -27,6 +27,9 @@ import imgTeam1 from './src/assets/img-team1.png'
 import imgTeam2 from './src/assets/img-team2.png'
 import imgTeam3 from './src/assets/img-team3.png'
 import imgTeam4 from './src/assets/img-team4.png'
+import imgHighlightSection2 from './src/assets/imgHighlight2.png'
+import imgHighlightSection3 from './src/assets/imgHighlight3.png'
+import imgHighlightSection4 from './src/assets/imgHighlight4.png'
 
 
 export {
@@ -58,5 +61,8 @@ export {
     imgTeam1,
     imgTeam2,
     imgTeam3,
-    imgTeam4
+    imgTeam4,
+    imgHighlightSection2,
+    imgHighlightSection3,
+    imgHighlightSection4
 }
