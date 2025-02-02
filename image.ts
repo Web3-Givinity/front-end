@@ -30,6 +30,7 @@ import imgTeam4 from './src/assets/img-team4.png'
 import imgHighlightSection2 from './src/assets/imgHighlight2.png'
 import imgHighlightSection3 from './src/assets/imgHighlight3.png'
 import imgHighlightSection4 from './src/assets/imgHighlight4.png'
+import overlay from './src/assets/overlay.svg'
 
 
 export {
@@ -64,5 +65,6 @@ export {
     imgTeam4,
     imgHighlightSection2,
     imgHighlightSection3,
-    imgHighlightSection4
+    imgHighlightSection4,
+    overlay
 }

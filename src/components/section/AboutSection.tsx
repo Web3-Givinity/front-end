@@ -14,7 +14,7 @@ export const AboutSection = () => {
                                 <p className="text-primary-400 text-lg font-light">About Us</p>
                             </div>
                         </div>
-                        <div className="p-4 max-w-xl absolute left-20 top-16 rounded-xl bg-white">
+                        <div className="p-4 max-w-xl absolute left-14 top-16 rounded-xl bg-white">
                             <p className="font-light text-xl leading-8">"We are a platform driven by the mission to connect generosity with those who need it most. Our goal is to make giving simple, impactful, and meaningful, empowering individuals to create real change in the lives of others. Together, we believe that even the smallest act of kindness can spark hope and build a brighter future for everyone."</p>
                         </div>
                     </div>
