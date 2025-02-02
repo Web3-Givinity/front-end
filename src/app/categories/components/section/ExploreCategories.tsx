@@ -1,6 +1,5 @@
 import React from 'react'
 import CardExploreCategories from '../fragments/CardExploreCategories'
-import { iconMedical } from '../../../../../image'
 import { categories } from '@/constants/categories'
 import Link from 'next/link'
 
@@ -17,7 +16,7 @@ export const ExploreCategories = () => {
                         {
                             categories.map((item, index) => (
                                 <Link key={index} href={`/categories/${item.slug}`}>
-                                    <CardExploreCategories image={iconMedical.src} title={item.title} project={item.project} />
+                                    <CardExploreCategories image={item.icon} title={item.title} project={item.project} />
                                 </Link>
                             ))
                         }

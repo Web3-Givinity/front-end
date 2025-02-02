@@ -29,7 +29,7 @@ export default function Page({ params }: { params: { slug: string[] } }) {
                         </div>
                         <div className="w-1/2">
                             <TitleSection label="Categories" />
-                            <h1 className="font-medium text-[72px] mb-4">{params.slug}</h1>
+                            <h1 className="font-medium text-[72px] mb-4">{decodeURIComponent(params.slug)}</h1>
                             <p className="font-light text-gray-400 leading-7 mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco </p>
                             <Button type="button" className="py-[10px] px-14 text-white bg-primary-400 rounded-full" label="Lorem" />
                         </div>

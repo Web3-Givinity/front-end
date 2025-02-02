@@ -17,14 +17,14 @@ export const LatestProjects = () => {
                 </div>
 
                 <div className="mt-16">
-                    <div className="flex flex-row gap-6">
+                    <div className="flex items-center flex-row gap-6">
                         <div className="w-1/2">
                             <Image width={500} height={500} alt="img-latest-project" src={rectangle2} className="w-full h-full" />
                         </div>
-                        <div className="w-1/2 flex flex-col justify-between">
+                        <div className="w-1/2 flex justify-between flex-col gap-14">
                             <div className="">
                                 <h3 className="font-medium text-xl mb-2">Support Mobile Medical Clinics for Remote Communities</h3>
-                                <p className="font-light text-[16px] text-gray-400">Help us bring essential healthcare to those who need it most. Your donation will fund mobile clinics, medical supplies, and health education for underserved communities. </p>
+                                <p className="font-light text-[16px] text-gray-400">Help us bring essential healthcare to those who need it most. Your donation will fund mobile clinics, medical supplies, and health education for underserved communities.</p>
                             </div>
 
                             <div className="">

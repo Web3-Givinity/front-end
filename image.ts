@@ -6,6 +6,7 @@ import projectImg2 from './src/assets/projectImg2.png'
 import rectangle from './src/assets/rectangle1.png'
 import imgHeroCategories from './src/assets/imgHeroCategories.png'
 import iconMedical from './src/assets/Medical-Kit.svg'
+import iconHunger from './src/assets/icon-Hunger&food.svg'
 import rectangle2 from './src/assets/Rectangle2.png'
 import imgCategoriesSlug1 from './src/assets/imgCategoriesSlug1.png'
 import imgCategoriesSlug2 from './src/assets/imgCategoriesSlug2.png'
@@ -66,5 +67,6 @@ export {
     imgHighlightSection2,
     imgHighlightSection3,
     imgHighlightSection4,
-    overlay
+    overlay,
+    iconHunger
 }
