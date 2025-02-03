@@ -1,6 +1,6 @@
 'use client';
 
-import { Chart } from 'chart.js';
+import { Chart } from 'chart.js/auto';
 import React, { useEffect, useRef } from 'react';
 
 export const DoughnutChart = () => {
@@ -25,7 +25,9 @@ export const DoughnutChart = () => {
                         {
                             label: 'Donation Progress',
                             data: [75, 25], // Donated 75% of total
-                            backgroundColor: ['blue', 'lightgray'],
+                            backgroundColor: [
+                                'rgb(90, 190, 230)',
+                                'lightgray'],
                             hoverOffset: 4,
                         },
                     ],

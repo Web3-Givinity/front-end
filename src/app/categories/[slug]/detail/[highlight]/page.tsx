@@ -2,6 +2,7 @@
 
 import { Footer } from '@/components/fragments/Footer';
 import { Navbar } from '@/components/fragments/Navbar';
+import { use } from 'react'
 import { BsChevronRight } from 'react-icons/bs';
 import { HeroDetailCatSection } from '@/app/categories/components/section/HeroDetailCatSection';
 import { ProblemSolutionSection } from '@/app/categories/components/section/ProblemSolutionSection';
@@ -12,9 +13,10 @@ import { useState } from 'react';
 import { dataDonors } from '@/constants/dataDonors';
 
 
-export default function DetailHighlight({ params }: { params: { slug: string; highlight: string } }) {
+export default function DetailHighlight({ params }: { params: Promise<{ slug: string; highlight: string }> }) {
 
     const [showModal, setShowModal] = useState(false)
+    const { slug, highlight } = use(params)
 
     return (
         <>
@@ -24,7 +26,7 @@ export default function DetailHighlight({ params }: { params: { slug: string; hi
                     <div className="flex flex-row items-center gap-4 text-gray-400 text-sm mt-28">
                         <p>Categories</p>
                         <span><BsChevronRight /></span>
-                        <p>{params.slug}</p>
+                        <p>{decodeURIComponent(slug)}</p>
                         <span><BsChevronRight /></span>
                         <p className='text-primary-400'>detail</p>
                     </div>

@@ -8,7 +8,7 @@ import { InputRangeWithIcon } from '../elements/inputs/InputRangeWithIcon';
 
 type CardHighlightProps = {
     highlight?: string;
-    categorySlug?: string[];
+    categorySlug?: string;
     img?: string;
 }
 export const CardHighlight = ({ highlight, img, categorySlug }: CardHighlightProps) => {
